@@ -43,6 +43,9 @@ export class Controller {
         );
     }
 
+
+    
+
     async createIngress({
         metadata,
         room_name,
@@ -365,3 +368,4 @@ function randomString(length: number) {
     }
     return result;
 }
+
